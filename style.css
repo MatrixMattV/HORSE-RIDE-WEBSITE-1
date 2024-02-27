@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h2 {
+    user-select: none;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 16px;
+    margin: 0 20px;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header button {
+    outline: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 4px 16px;
+    cursor: pointer;
+    letter-spacing: .5px;
+    border: 2px solid black;
+    background: brown;
+    color: aliceblue;
+    border-radius: 4px;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content {
+    max-width: 1200px;
+    text-align: center;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+}
+
+.main-content p {
+    margin-top: 20px;
+    font-size: 18px;
+    max-width: 700px;
+}
+
+.main-content button {
+    margin-top: 24px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 12px 28px;
+    border-radius: 4px;
+    letter-spacing: .5px;
+    background: brown;
+    color: aliceblue;
+}
+
+.background-clip {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    inset: 0;
+    margin: auto;
+}
